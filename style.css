@@ -117,7 +117,13 @@ img {
 .type-wrap {
     font-size: 25px;
     color: #C4515C;
+}
 
+#typed{
+    display: block; /* Ensures the text takes up the whole width */    
+    white-space: normal; /* Enables word wrapping */    
+    width: 100%; /* Ensures the text stays within the screen width */    
+    word-wrap: break-word;
 }
 
 .cake {
